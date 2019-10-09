@@ -1,0 +1,70 @@
+body {
+    background-color:red);
+    color: gold;
+    font-family: 'Verdana,Geneva, Tahoma, sans-serif';
+    }
+    h1{
+    color:black;
+    text-align:center;
+    font-family: cursive;
+    }
+    h2{
+        color: black;
+        font-family: cursive;
+    }
+    p{
+        color: gold;
+        font-family: cursive;
+    }
+    g{
+        color: greenyellow;
+        font-family: cursive;
+    }
+    li{
+        color: pink;
+        font-family: cursive;
+    }
+    dt {
+        color: pink;
+        font-family: cursive;
+    }
+    dd {
+        color: pink;
+        font-family: cursive;
+    }
+    a:link {
+        text-decoration: none;
+        font-family: cursive;
+    }
+    a:visited{
+        text-decoration: none;
+        font-family: cursive;
+    }
+    a:hover{
+        text-decoration: underline;
+        font-family: cursive;
+    }
+    a:active{
+        text-decoration: underline;
+        font-family: cursive;
+    }
+    a{
+     font-size: 30px;
+     font-family:cursive;
+     border-radius: 20px:
+    }
+    a:link, a:visited {
+        background-color: red;
+        color:black;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration:none;
+        display: block;
+        border-radius: 20px 20px 20px 20px;
+        
+      }
+      
+      a:hover, a:active {
+        background-color: gold;
+        border-radius: 0 0 0 0  ;
+      }

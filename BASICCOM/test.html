@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    var num1=50.5;
+    var num2=40;
+    var fullName="ณัฐพล เวฬุวนารักษ์";
+    var nickName="ออย";
+    var age="19";
+    var mobileNo="0857728518";
+    var address="4/7 บ้านบะนางเจิม ตำบลห้วยแก้ง อำเภอกุดชุม จังหวัดยโสธร 35140";
+    var stdNo="62424201002";
+    var gg="เขาไม่ตอบแชท";
+    var message="ฉันชื่อ"+fullName+"\nชื่อล่นคือ"+nickName;
+
+    console.log("100*100 ="+100*100);
+    window.alert("คุณหล่อเกิน"+fullName+"\n กินข้าวกับอะไร");
+    
+    </script>
+    <style>
+    b{
+        color: red
+    }
+    </style>
+</head>
+<body bgcolor="red">
+    <h1>เขียนjava script ขั้นพื้นฐาน</h1>
+    
+    มนุษย์ต่างดาว <b id="message"></b><br>  
+                <b id="gg"></b><br> 
+    ฉัน ชื่อ       <b id="fullName" ></b><br>
+    ชื่อเล่นของฉัน  <b id="nickName" ></b><br>
+    เบอร์             <b id="mobileNo" ></b><br>
+    <script>
+    document.getElementById("message").innerHTML="สวัสดีชาวไทยเชื้อสายดาวอังคาร";
+    document.getElementById("fullName").innerHTML="ณัฐพล เวฬุวนารักษ์";
+    document.getElementById("nickName").innerHTML="ออย";
+    document.getElementById("mobileNo").innerHTML="0857728518"; 
+    document.getElementById("gg").innerHTML="เขาไม่ตอบแชท";
+    
+    </script>
+    
+            <fieldset>
+                คำตอบคือ <b id=answer>  
+                <input type="input">
+                    <input type="button"value="ก็มาดิค้าบ" onclick="window.alert(fullName)">
+                    <input type="button"value="โสดค้าบ" onclick="document.getElementById(message).innerHTML">
+                <legend>ข้อมูลทั่วไป</legend>
+                ฉัน ชื่อ    <script>document.write("สวัสดี คุณ"+fullName+"<br>หล่อเกิ๊นน")</script> 
+                <script>document.write("สวัสดี คุณ"+nickName+"<br>ฉันเสียใจ")</script>  
+            </fieldset>
+</body>
+</html>

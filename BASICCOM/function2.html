@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    var price=100;
+    var person=50;
+    var total=price*person;
+uj
+    function a1(){
+        document.getElementById("price").innerHTML=price;
+        document.getElementById("person").innerHTML=person;
+        document.getElementById("total").innerHTML=total;
+    }
+    </script>
+    <style>
+        h1{
+            color: gold;
+        }
+        td{
+            color: gold;
+        }
+    </style>
+</head>
+<body bgcolor="red">
+    <center><h1>ราคาตั๋วหนัง</h1></center>
+<fieldset>
+        <center>
+        <tr>
+            <td>ราคาตั๋วหนัง</td>
+            <td>:</td>
+            <td><b id="price"></b></td>
+            <td>บาท</td>
+        </tr><br>
+        <tr>
+            <td>จำนวนคน</td>
+            <td>:</td>
+            <td><b id="person"></b></td>
+            <td>คน</td>
+        </tr><br>
+        <tr>
+            <td>ราคาสุทธิ</td>
+            <td>:</td>
+            <td><b id="total"></b></td>
+            <td>บาท</td>
+        </tr> </center>   
+</fieldset>
+<center><input type="button" value="แสดงราคา" onclick="a1();" ></center>
+</body>
+</html>
