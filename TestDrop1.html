@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ทดสอบ Dropdown 1</title>
+    <style>
+    .out{
+        position: relative;
+    }
+    .in{
+        position: absolute;
+        border-radius: 10px;
+        padding: 10px;
+        top: 10px;
+        left: 10px;
+        display:none;
+        z-index: -1;
+        background-color: red;
+    }
+    .out:hover .in{
+        display:block;
+    }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <span>วางเมาส์ที่นี้</span>
+        <div class="in">
+            ข้อความที่ซ่อนอยู่
+        </div>
+    </div>
+</body>
+</html>
